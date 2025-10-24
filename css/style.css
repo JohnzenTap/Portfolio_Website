@@ -1,0 +1,42 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #111;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+nav a {
+  color: #c0392b; /* nice red tone */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  color: #e74c3c;
+  transform: scale(1.05);
+}

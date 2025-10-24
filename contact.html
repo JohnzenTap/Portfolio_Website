@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fdfdfd;
+      color: #222;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #f8f8f8;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #111;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #c0392b;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 6px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    nav a:hover {
+      background-color: #e74c3c;
+      transform: scale(1.05);
+    }
+
+    main {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    main p {
+      font-size: 20px;
+      color: #444;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      text-align: left;
+    }
+
+    form label {
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    form input, 
+    form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    form textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    form button {
+      padding: 12px 20px;
+      background-color: #c0392b;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    form button:hover {
+      background-color: #e74c3c;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f8f8;
+      color: #666;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Kontakt meg</h1>
+    <nav>
+      <a href="index.html">Hjem</a>
+      <a href="about.html">Om meg</a>
+      <a href="work.html">Mine arbeid</a>
+      <a href="contact.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Send meg gjerne en epost på <strong>Johnzen@gmail.com</strong></p>
+    
+    <form>
+      <label for="name">Navn:</label>
+      <input type="text" id="name" placeholder="Skriv navnet ditt">
+
+      <label for="message">Melding:</label>
+      <textarea id="message" placeholder="Skriv meldingen her"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Johnzen Tapales. Hoi Bayot ka🌈🌈🌈😭😭</p>
+  </footer>
+</body>
+
+</html>
